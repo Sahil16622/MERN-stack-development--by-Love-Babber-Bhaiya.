@@ -1,0 +1,41 @@
+.container1{
+    border:2px solid black;
+    /* width: 60%;
+    height: 50%; */
+    
+}
+.image1{
+    float: right;
+    padding: 2px;
+
+}
+
+.container2{
+    border:2px solid black;
+}
+
+.image2{
+    float: left;
+    padding: 2px;
+}
+
+.image3{
+   /* float:inline-end; */
+   padding: 2px;
+   /* clear: top; */
+   float: bottom;
+}
+
+.container3{
+    border:2px solid black;
+    overflow:scroll;
+    width:500px;
+    height:600px;
+    /* overflow:auto; */
+    /* overflow:hidden; */
+}
+
+.image4{
+
+    float: right;
+}

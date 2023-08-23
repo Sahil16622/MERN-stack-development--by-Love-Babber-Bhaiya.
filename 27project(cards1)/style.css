@@ -1,0 +1,74 @@
+.outercontainer{
+
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background: #aa4b6b;  
+    background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  
+    background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.innercontainer{
+
+
+  width: 250px;
+  height: 300px;
+  background: #4CA1AF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+
+
+}
+
+.insidecontainer{
+    background-color: rgb(65, 77, 235);
+}
+
+.insidecontainer section img{
+
+
+    width: 250px;
+    height: 120px;
+
+
+
+}
+
+.component{
+
+    padding: 5px;
+    margin: 2px;
+    background: #4CA1AF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+
+}
+
+.component section p{
+
+font-size: 0.8rem;
+
+
+}
+
+.insidecontainer section img:hover{
+
+
+
+    width: 250px;
+    height: 130px;
+
+}

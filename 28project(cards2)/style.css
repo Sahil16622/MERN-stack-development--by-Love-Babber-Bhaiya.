@@ -1,0 +1,175 @@
+.outercontainer{
+
+width: 100vw;
+height: 100vh;
+box-sizing: border-box;
+background: #4CA1AF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+
+}
+
+
+.innercontainer{
+
+width: 250px;
+height: 400px;
+background: #EFEFBB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+border-radius: 10px;
+gap: 20px;
+
+}
+
+.section1 img{
+
+width: 100%;
+height: 100px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.section2 article p{
+
+    font-size: 0.8rem;
+    text-align: center;
+
+}
+.section2 article h5{
+    text-align: center;
+}
+
+.biggerbox
+{
+
+width: 220px;
+height: 50px;
+background: #4CA1AF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #C4E0E5, #4CA1AF); 
+display: flex;
+justify-content: space-around;
+align-items: center;
+position: relative;
+left: 15px;
+
+
+
+}
+
+.section3{
+    width: 220px;
+    height: 50px;
+}
+
+
+@media (min-width: 250px){
+
+.section3{
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+.biggerbox article img{
+
+width: 20px;
+height: 20px;
+
+
+}
+
+.biggerbox article p{
+
+    font-size: 0.7rem;
+}
+
+.biggerbox article{
+    display: flex;
+    justify-content:space-around
+}
+
+.biggerbox article a{
+    text-decoration: none;
+}
+
+
+.needed{
+
+
+    justify-content:space-evenly
+
+}
+
+.section4{
+    display: flex;
+    justify-content: center;
+    gap:inherit;
+    position: relative;
+}
+
+.section4 button{
+
+width: 200px;
+height: 40px;
+border-radius: 4px;
+background-color: rgb(26, 46, 88);
+position: relative;
+
+top: 20px;
+box-shadow: 4px 4px 8px 4px rgb(117, 109, 109);
+
+}
+
+.section4 button:hover{
+
+
+    cursor: pointer;
+    background-color: blue;
+
+}
+
+
+.section4 p{
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 2px;;
+}
+
+.section5{
+
+width: 150px;
+height: 20px;
+/* background-color: aliceblue; */
+position: relative;
+top: 40px;
+left: 85px
+}
+
+
+.section5 p{
+
+
+    font-weight: 200;
+    font-size: 0.7;
+    text-shadow: 0.2px 0.5px 6px rgb(65, 55, 55);
+
+
+
+}
+
+.section5 p:hover{
+
+    cursor: pointer;
+
+    font-weight: bold;
+}

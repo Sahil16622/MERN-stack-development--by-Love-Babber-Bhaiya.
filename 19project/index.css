@@ -1,0 +1,105 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.outer-container{
+   background: linear-gradient(to top right, rgb(107, 213, 231), rgb(53, 205, 243));
+   width: 100vw;
+   height: 100vh;
+   position: fixed;
+}
+.inner-container{
+    background-color: rgb(214, 243, 243);
+    height: 400px;
+    width: 300px;
+    /* position: relative; iska use hai bro tbhi moov kr rha dekh lo circle vala css code smjh jaoge */
+    top: 20%;
+    /* right: 10%; */
+    left: 40%;
+    bottom: 30%;
+    font-family: 'Libre Franklin', sans-serif;
+    /* padding: 10%;
+    margin: 0%; */
+    position: fixed;
+    /* text-align: center; */
+    z-index: 2;
+    border: lightseagreen;
+    border-radius: 8px;
+    /* box-shadow: darkgreen; */
+    box-shadow: inset;
+   
+}
+.p1{
+display: block;
+font-weight: bold;
+
+
+}
+.p2{
+    display: block;
+    font-weight: bold;
+}
+.p3{
+    display: block;
+    font-weight: bold;
+}
+
+p{
+    padding: 2%;
+    margin: 2% 4%;
+}
+h1{
+    padding: 1% 0%;
+} 
+.p4:hover{
+    cursor: pointer;
+    background-color: rgb(18, 143, 226);
+    color: aliceblue;
+    font-weight: bold;
+    border-color: aliceblue;
+   
+}
+
+.p4{
+    width: 100%;
+}
+
+.circle1{
+    background: linear-gradient(to left bottom, white, rgb(114, 166, 233));
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+   position: relative;
+   top: 30%;
+   left: 30%;
+}
+
+.circle2{
+    background: linear-gradient(to left bottom, white, rgb(114, 166, 233));
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+   position: relative;
+   top: 30%;
+   left: 60%;
+   bottom: 10%;
+}
+a{
+    color:  rgb(18, 143, 226);
+}
+
+input[id="name"]{
+    width: 100%;
+    border-radius: 2px;
+}
+
+input[id="E-mail"]{
+    width: 100%;
+    border-radius: 2px;
+}
+
+input[id="password"]{
+    width: 100%;
+    border-radius: 2px;
+}

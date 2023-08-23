@@ -1,0 +1,48 @@
+h1{
+    border-style: solid;
+    background-color: beige;
+    padding: 50px;
+    /* margin: 30px; */
+}
+#p1{
+    border-style: solid;
+    background-color: yellowgreen;
+    /* border-collapse: separate; */
+    border-inline-color: green;
+    border-width: 1px;
+    padding: 50px;
+    /* margin: 30px; */
+
+}
+#p2{
+    border-style: solid;
+    background-color: rgb(227, 241, 161);
+    padding: 50px;
+    /* margin: 30px; */
+}
+#p3{
+    border-style: solid;
+    background-color: rgb(103, 173, 231);
+    padding: 50px;
+    /* margin: 30px; */
+}
+footer{
+    border-style: solid;
+    border-color: black;
+   border-width: 5px;
+   background-color: rgb(243, 189, 230);
+   padding: 50px;
+   /* margin: 30px; */
+   
+}
+/* *{
+    padding: 50px;
+} */
+/* This indicates that if using star we are specifying 
+any set of values either to padding or margin the whole value is set for both 
+together. */
+
+/* *{
+    padding: 50px;
+    margin: 30px;
+} */

@@ -1,0 +1,142 @@
+.container{
+    border: 2px solid black;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(96, 248, 190);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.box{
+
+    border: 1px solid black;
+    width: 200px;
+    height: 80px;
+    background-color: cadetblue;
+    margin: 5px;
+    padding: 5px;
+    animation-name: topbox;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    position: relative;
+
+
+}
+
+@keyframes topbox{
+    from{
+
+        top: 0%;
+        left: 0%;
+    }
+    to{
+
+
+        left: 1400px;
+
+    }
+}
+
+.box1{
+
+
+    border: 1px solid black;
+    width: 200px;
+    height: 80px;
+    background-color: cadetblue;
+    margin: 5px;
+    padding: 5px;
+    animation-name: bottombox;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    position: relative;
+    top: 570px;
+    left: 0%;
+
+}
+
+@keyframes bottombox{
+
+
+    from{
+        
+        top: 570px;
+        left: 0%;
+       
+    }
+    to{
+
+        left: 1400px;
+    }
+}
+
+.box2
+{
+
+border: 1px solid black;
+border-radius: 50px;
+width: 100px;
+height: 100px;
+background-color: cadetblue;
+position: relative;
+top: 150px;
+left: 800px;
+animation-name: circle;
+animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+animation-duration: 4s;
+animation-delay: 2s;
+animation-fill-mode: both;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+
+
+}
+ @keyframes circle{
+
+    0%{
+     
+
+        top: 150px;
+        left: 800px;
+
+    }
+
+    25%{
+
+        top: 400px;
+        left: 400px;
+    }
+
+    50%{
+        
+         top: 100px;
+         left: 200px;
+
+    }
+
+    75%{
+
+
+        top: 70px;
+        left: 100px;
+
+    }
+
+    100%{
+
+       top: 100px;
+       right: 200px;
+
+    }
+ }

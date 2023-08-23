@@ -1,0 +1,73 @@
+.container1{
+    border:2px solid black;
+    width: 800px;
+    height: 600px;
+    background-color: bisque;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* justify-content:left; */
+    /* justify-content:right; */
+    /* justify-content:space-around; */
+    /* justify-content:space-between; */
+    /* justify-content:space-evenly; */
+    /* justify-content:stretch;  */
+
+    /* justify content for strech is applicable only when
+    the no sizing is provided like no width and height  */
+    /* align-items: end; */
+
+    /* align-items:center; */
+    /* align-items: flex-start; */
+    /* align-content: it is something that reduces
+    the extra space that is generated while the
+    shrinking or wrapping process takes place. */
+
+
+    /* NOTE: The properties for flex container is written on the parent container
+    while the prioperties of flex items are written on particular item the 
+    property is specified */
+
+}
+
+*{
+    padding: 2px;
+    margin: 2px;
+}
+/* #boxes{
+    border:1px solid black;
+} */
+.box1{
+    width: 50px;
+    height: 80px;
+    border:1px solid black;
+    background-color: chartreuse;
+    /* order: 400; */
+}
+
+.box2{
+    width: 50px;
+    height: 80px;
+    border:1px solid black;
+    background-color: burlywood;
+    /* order: -1; */
+    /* Then their is flex-grow,flex-shrink,flex-basis and flex(1,2,3) another flex itm properties. */
+}
+
+.box3{
+    width: 50px;
+    height: 80px;
+    border:1px solid black;
+    background-color: chocolate;
+    /* align-self: center; */
+
+    /* align-self:first baseline; */
+
+}
+
+.box4{
+    width: 50px;
+    height: 80px;
+    border:1px solid black;
+    background-color: cadetblue;
+}

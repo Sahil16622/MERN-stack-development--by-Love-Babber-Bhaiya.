@@ -1,0 +1,39 @@
+/* .container{
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    background-color: coral;
+    transition: all;
+    transition-duration: 2s;
+    transition-delay: none;
+  
+    
+
+
+}
+
+div:hover {
+    background-color: cadetblue;
+    width: 500px;
+    height: 300px;
+}
+
+ */
+
+ .container1{
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    background-color: coral;
+    transition: all;
+    transition-duration: 2s;
+    transition-delay: none;
+ }
+
+ section:hover {
+    background-color: cadetblue;
+    width: 500px;
+    height: 300px;
+}
+
+

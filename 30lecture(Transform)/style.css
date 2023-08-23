@@ -1,0 +1,67 @@
+.container1
+{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.container2
+{
+
+    width: 300px;
+    height: 200px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    margin: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: all 4s ;
+
+}
+
+.container2:hover
+{
+
+    /* For transforms to take place smoothly we need to describe the 
+    transitions in the parent section with proper syntax. */
+
+    /* /* transform: translate(50px,100px); */
+    /* transform: translate(200px,100px); */ 
+    
+    
+     /* transform: rotate(90deg); */
+
+     /* transform: scale(2); */
+
+     /* Their is scalex and scaley that specifies the largening in
+     x and y direction,agr sirf ek value doge to vo dono me specify
+     ho jayegi. */
+
+     
+      /* transform: skew(-30deg); */
+
+    /* transform: skew(30deg); */
+
+ 
+
+
+ transform: matrix(1,-0.3,-1.5,1,2,6);
+
+
+ /* multidimensional view deta hai matrix representation of 
+ transform. */
+
+}
+
+
+
+

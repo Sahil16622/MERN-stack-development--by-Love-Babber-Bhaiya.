@@ -1,0 +1,45 @@
+body{
+    background-color: bisque;
+}
+#table1{
+    background-color: aliceblue;
+    text-decoration-line: underline;
+}
+#black{
+   color: black;
+   text-align: left;
+   text-size-adjust: bold;
+}
+#yellow{
+    color: darkgoldenrod;
+    text-align: left;
+   text-size-adjust: bold;
+}
+#lan{
+    text-size-adjust: bold;
+}
+#start{
+    background-color: darkslateblue;
+    color: aliceblue;
+}
+#end{
+    background-color: darkslateblue;
+    color: aliceblue;
+}
+#image{
+    background-color: aquamarine;
+}
+#info{
+    background-color: dodgerblue;
+    color: aliceblue;
+}
+#extra{
+    text-align: center;
+}
+footer{
+    color: black;
+}
+#table1{
+    border-color: antiquewhite;
+}
+

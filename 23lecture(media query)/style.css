@@ -1,0 +1,146 @@
+.container{
+    border: 2px solid black;
+    width: 800px;
+    height: 600px;
+    background-color: bisque;
+}
+.box{
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+    background-color: cadetblue;
+
+}
+*{
+    padding: 2px;
+    margin: 2px;
+}
+@media (min-width: 500px){
+    .box{
+        background-color: chocolate;
+
+         /* Basically min width will define ki jb tk specified width se baraber
+         ya jyada px hai component ki vo yhi property dikhayega but jaise hi
+         ye km hua to vo aa jata hai normal property show krne k region me ya fhir 
+         max width k region me. */
+    }
+
+}
+
+.container1{
+
+
+    border: 2px solid black;
+    width: 800px;
+    height: 600px;
+    
+    background-color: bisque;
+    display:flex;
+    flex-direction: row;
+
+}
+.box1{
+
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    background-color: cadetblue;
+
+}
+
+.box2{
+
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    background-color: cadetblue;
+    
+}
+
+.box3{
+
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    background-color: cadetblue;
+    
+}
+
+.box4{
+
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    background-color: cadetblue;
+
+    
+}
+
+
+@media (max-width: 500px){
+    .container1{
+
+        /* display:flex; */
+        flex-direction: column;
+
+    }
+
+}
+
+.container2{
+
+    border: 2px solid black;
+    width: 800px;
+    height: 600px;
+    
+    background-color: bisque;
+
+    display: flex;
+    
+
+    
+
+}
+
+.boxa{
+
+    border: 0.5px solid black;
+    width: 100px;
+    height: 50px;
+    background-color: cadetblue;
+    
+}
+
+.boxb{
+
+    border: 0.5px solid black;
+    width: 100px;
+    height: 50px;
+    background-color: cadetblue;
+    
+   
+    
+}
+
+
+
+
+
+
+.boxc{
+
+    border: 0.5px solid black;
+    width: 200px;
+    height: 150px;
+    background-color: darkkhaki;
+    /* position: relative;
+    left: 100px; */
+    
+}
+@media (max-width: 400px){
+    .container2{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
