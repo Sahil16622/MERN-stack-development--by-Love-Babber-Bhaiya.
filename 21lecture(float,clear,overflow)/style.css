@@ -4,6 +4,8 @@
     height: 50%; */
     
 }
+
+
 .image1{
     float: right;
     padding: 2px;
@@ -12,18 +14,27 @@
 
 .container2{
     border:2px solid black;
+    /* margin: 4px;
+    padding: 5px; */
 }
 
 .image2{
-    float: left;
-    padding: 2px;
+    float: right;
+   
+    padding: 5px;
+    margin: 5px;
 }
+
+
 
 .image3{
    /* float:inline-end; */
-   padding: 2px;
+   /* padding: 2px; */
    /* clear: top; */
-   float: bottom;
+   float: right;
+   padding: 5px;
+   margin: 5px;
+   clear: right;
 }
 
 .container3{

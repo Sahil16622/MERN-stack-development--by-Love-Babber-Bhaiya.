@@ -1,3 +1,11 @@
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
 .container{
     border: 2px solid black;
     width: 100vw;
@@ -38,7 +46,7 @@
     to{
 
 
-        left: 1400px;
+        left: 1000px;
 
     }
 }
@@ -70,13 +78,14 @@
 
     from{
         
-        top: 570px;
+        top: 400px;
         left: 0%;
        
     }
     to{
 
-        left: 1400px;
+        top:400px;
+        left: 1000px;
     }
 }
 
@@ -114,7 +123,7 @@ animation-direction: alternate;
 
     25%{
 
-        top: 400px;
+        top: 280px;
         left: 400px;
     }
 
